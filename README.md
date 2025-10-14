@@ -152,7 +152,16 @@ resilience4j:
 ## 🧩 Key Learnings
 
 ✅ How to use Spring Cloud OpenFeign for API integration
+
 ✅ How to handle errors and fallback logic with Resilience4j
+
 ✅ How to create custom Feign ErrorDecoder
+
 ✅ How to test API integrations using WireMock
+
 ✅ How to build resilient microservices in Spring Boot
+
+## 👨‍💻 Author
+
+Icaro Caetano
+💼 https://www.linkedin.com/in/icarocaetano
