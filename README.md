@@ -63,13 +63,12 @@ poc-feign-integration/
 └── build.gradle
 ````
 
-````
-
 ---
 
 ## 🚀 Running the Project
 
 ### **1️⃣ Clone the Repository**
+
 ```bash
 git clone https://github.com/yourusername/poc-feign-resilient-integration.git
 cd poc-feign-resilient-integration
@@ -138,3 +137,22 @@ resilience4j:
         waitDurationInOpenState: 5s
 
 ````
+
+## 🧱 Example of Fallback Response
+
+````
+{
+  "cep": "01001000",
+  "logradouro": "Unavailable",
+  "localidade": "Service unavailable"
+}
+
+````
+
+## 🧩 Key Learnings
+
+✅ How to use Spring Cloud OpenFeign for API integration
+✅ How to handle errors and fallback logic with Resilience4j
+✅ How to create custom Feign ErrorDecoder
+✅ How to test API integrations using WireMock
+✅ How to build resilient microservices in Spring Boot
